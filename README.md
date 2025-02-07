@@ -1,6 +1,14 @@
 # Scopeofwork
 Scope of work for the API SDK project
-Define the Scope of the SDK
+
+# 1. Define project requirements
+
+
+# 2. Identify key tasks and milestones
+
+
+
+## Define the Scope of the SDK
 
 Determine exactly what functionalities will be included in the SDK. This should cover the core capabilities like data shredding, routing, and reassembly for secure token creation and distribution.
 
@@ -11,33 +19,26 @@ CloudCoin Whitelable
 
 Hosted By RaidaTech:
 ———————————
-CloudCurrency
-	-Minting
-	-Authentication
-	-Syncrhonization
-Digital Certificates (Stable Tokens)
-Digital Certificates (Asset Tokenization)
-Private Digital Collectibles (Cerebrum but private)
-Digital Lockers Free
-Digital Banking
-	- Digital Bank Lockboxes
-	- Authentication Service
-	- Money Storage
-	- Sending between bank users
-	- SMS messaging
-	- Discord Integration
-Digital Exchange
-	- CloudCoin
-	 -BTC
-	- Adding Custom Token/coin
-Digital Exchange Private Collectibles 
-Digital Merchant & Payment Systems
-Secure Data Storage
-Secure Messaging
-Quantum Safe Key Exchange
-Open Hosting
-Coin Registry Blockchain
-Crypto Wallet Sub-custodial Service
+
+API | Description
+---|---
+CloudCurrency | Same technology as CloudCoin version 3
+Digital Certificates | Allows for managed currencies such as stable tokens
+Digital Certificates | Can also be used for Asset Tokenization)
+Private Digital Collectibles| Allow media to be accessed only by owners of that media (Cerebrum but private)
+Digital Lockers | Lockers for holding CloudCurrencies and Digital Cerficiates
+Digital Banking | Services for currencies and cerficiates such as lockboxes, authentication, storage, sending
+Digital Exchange | Services for swapping currencies and assets including blockchains
+Digital Exchange Private Collectibles | Exchange for selling collectibles
+Digital Merchant & Payment Systems | Allows merchants to accept currecies as payment
+Secure Data Storage | Storing any datafiles
+Secure Messaging | Storing and addressing messages
+Quantum Safe Key Exchange | Exchanging keys between machines that do not share a common secret
+Crypto Wallet Sub-custodial Service | Allows banks, exchanges and regulare folks to store crypto keys until needed
+Open Hosting | Allows anyone to have a RAIDA node. No more set limit of 25.  
+Coin Registry Blockchain | Allows CloudCurrencies and Certificates to use open hosting
+
+
 
 
 Self-Hosted by Customer
@@ -75,6 +76,10 @@ Web App Customization
 SMS App Customization
 Android App Customization
 iPhone App Customization
+
+	-Minting
+	-Authentication
+	-Syncrhonization
 
 Digital Currencies on user’s Servers
 Sam 
