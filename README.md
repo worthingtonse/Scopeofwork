@@ -2,6 +2,8 @@
 Determine exactly what functionalities will be included in the SDK. This should cover the core capabilities like data shredding, routing, and reassembly for secure token creation and distribution.
 
 ## Functionalities to be included:
+🔴 Means not implemented yet. 
+🟡 Means not fully implemented yet or needs customization. 
 Catagory | Subcat | Function | Description
 ---|---|---|---
 CloudCoin | Status | Echo RAIDA | Sends each RAIDA a ping to check connection. Returns the response time or timeout. 
@@ -14,8 +16,8 @@ CloudCoin | File | Create Wallet | Allows the user to create and name a new wall
 CloudCoin | File | List Wallets | Returns a list of wallets on the compuer
 CloudCoin | File | Change Wallet Name | Changes the name of a wallet
 CloudCoin | File | Delete Wallet | Deletes the wallet specified
-CloudCoin | Wallet | Show Transcripts | Shows past transactions
-CloudCoin | Wallet | Delete Transcripts | Deletes the transaction files for privancy sake
+CloudCoin | Wallet | Show Transaction records | Shows past transactions
+CloudCoin | Wallet | Delete Transaction records | Deletes the transaction files for privancy sake
 CloudCoin | Wallet | Count Coins | Shows how many coins are in a wallet
 CloudCoin | Coins | Take Ownership | Changes the passwords on CloudCoin files
 CloudCoin | Coins | Withdraw To PNG  | Removes coins from the wallet into a PNG file
@@ -29,12 +31,15 @@ CloudCoin | Locker | Remove Locker Contents | Moves the coins in a RAIDA locker 
 CloudCoin | Health | Check Health | Runs a detect against the RAIDA to see if the coins are authentic
 CloudCoin | Health | Backup Coins | Makes a copy of the user's coins
 CloudCoin | Health | Fix Coins | Syncronizes coins so that they are authentic on all RAIDA
-CloudCoin | Health | Find Coins | Asks the RAIDA if they received the last request and if so, what happened. 
 Swap | Sell Coins | Puts coins on the RAIDA to sell at a price specified
 Swap | List Coins For Sale | Lists all the coins for sale and at what price
-Swap | Buy Coins | Buys the coins and downloads them to the wallet
+Swap | Buy Coins | 🟡 Buys the coins and downloads them to the wallet
 Swap | List Past Swaps | Shows a URL of a database of past swaps. 
-Token | Accounts | 
+Token | Accounts | Create Account and Put in Group. Group can be either kyc, kycadmin, user, treasurer, raida or admin.
+Token | Accounts | Delete Account | Removes an account
+Token | Accounts | 🔴 Freeze Account | Removes an account
+Token | Accounts | 🔴 Unfreeze Account | Removes an account
+Token | Accounts | 🔴 Grant Permissions | Gives the user permssions. 
 Token | Audit | Shows all of the events that have happened in the period specified
 Token | Treasury |  [Create Tokens](#create-tokens) | Orders that tokens be created
 Token | Treasury |  [Delete Tokens](#delete-tokens) | Orders tokens to be destroyed. 
@@ -42,9 +47,42 @@ Token | Treasury |  [Freeze Tokens](#freeze-tokens) | Stops coins specified from
 Token | Treasury | [Unfreeze Tokens](#unfreeze-tokens) | Returns the control of the coins to the user.  
 Token | Treasury |  [Seize Tokens](#seize-tokens) | Orders tokens to be put into a locker for the treasurer. 
 Token | Treasury |  [Get All SNs](#get-all-sns)|  Returns all the serial numbers that the RAIDA has minted.
-Token | Treasury |  [Create_Depository](create-depository) | Creates a Depository for an exchange, merchant of bank
-Token | Treasury |  [Stop_Depository](stop) | Stop a depository from accepting or releasing coins
-Token | Treasury | [🔴Set Fee For Swaps](#set-fee-for-swaps) | The conversion fee set in percentages. 
+Token | Treasury | 🟡  [Create_Depository](create-depository) | Creates a Depository for an exchange, merchant of bank
+Token | Treasury | 🟡  [Stop_Depository](stop) | Stop a depository from accepting or releasing coins
+Token | Treasury | [🟡  Set Fee For Swaps](#set-fee-for-swaps) | The conversion fee set in percentages. 
+Banking | Bank |  [Show Statement](#show-statement) | Shows the owner of the Depository all the history of transactions. 
+Banking | Bank |  🟡 Balance | Shows Bank Balance
+Banking | Bank |  🟡 Deposit Locker Code | Puts coins into an account by locker code
+Banking | Bank |  🟡 Deposit File | Puts coins into an account from a file
+Banking | Bank |  🟡 Withdraw to Locker code | Withdraws coins to a locker code
+Banking | Bank |  🟡 Withdraw to File | Withdraws coins to a PNG or BIN
+Banking | Bank |  🟡 Send | Moves coins to a new user without an invoice
+Banking | Merchant | 🔴 Create QR | Creates a QR code so that a merchant can show a phone use how to pay  
+Banking | Merchant | 🔴 Pay House | People put money into a special depository & receive an invoice. 
+Banking | Merchant | 🔴 Read Public Reciept | This receipt id allows anyone to see that payment was made. 
+Banking | Merchant | 🔴 Confirm Payment | Confirms that a payment has been made based on transaction number.
+Key | Unknow User| 🔴 Exchange | Gets a quantum safe key that is a shared secret between the user and the computer specified. 
+Storage | File | [Create Folder](#create-folder) | Creates a folder on the RAIDA
+Storage | File | [Show Folder Contents](#show-folder-contents) | Lists the files and folders
+Storage | File | [Remove Folder](#remove-folder) | Removes a folder from the RAIDA
+Storage | File | [Put Object](#put-object) | Uploads a file or binary data
+Storage | File | [Get Object](#get-object) | Downloads a file or binary data
+Storage | File | [Remove Object](#remove-object) | Deletes a file or binary data
+Storage | File | 🟡 Upload Private Key | Loads a Private Key of crypto wallet that has not been seen by anyone
+Storage | File | 🟡 Read Private Key | Loads a Private Key of crypto wallet that has not been seen by anyone
+Storage | Share | 🔴 Create Share | Creates a folder that can be read from by others such as "Shared Directory"
+Storage | Share | 🔴 Delete Share | Deletes a shared foler
+Storage | Share | 🔴 Unhide share | Allows the share to be see in Active Directory
+Storage | Share | 🔴 Set Permissions | Allows users or groups to access the folder. All denied by default
+Ghost Chat | Chat | 🟡 Send | Uploads a file to another user's inbox including attachments.
+Ghost Chat | Chat | 🟡 Receive | Downloads a file from the user's inbox including attachments.
+Ghost Chat | Chat | 🔴 Spam | Allows the user to send a message to the public inbox. 
+Ghost Chat | Chat | 🔴 Receive Spam | Allows the user to download files in the public inbox. 
+GPT Anonymous | Chat | 🟡 Request | User sends AI a prompt.
+
+
+
+
 
 
 
