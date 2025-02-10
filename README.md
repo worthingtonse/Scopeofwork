@@ -32,16 +32,16 @@ CloudCoin | Locker | Remove Locker Contents | Moves the coins in a RAIDA locker 
 CloudCoin | Health | Check Health | Runs a detect against the RAIDA to see if the coins are authentic
 CloudCoin | Health | Backup Coins | Makes a copy of the user's coins
 CloudCoin | Health | Fix Coins | Syncronizes coins so that they are authentic on all RAIDA
-Swap | Sell Coins | Puts coins on the RAIDA to sell at a price specified
-Swap | List Coins For Sale | Lists all the coins for sale and at what price
-Swap | Buy Coins | 🟡 Buys the coins and downloads them to the wallet
-Swap | List Past Swaps | Shows a URL of a database of past swaps. 
+Swap | Market | Sell Coins | Puts coins on the RAIDA to sell at a price specified
+Swap | Market | List Coins For Sale | Lists all the coins for sale and at what price
+Swap | Market | 🟡 Buy Coins | ≈Buys the coins and downloads them to the wallet
+Swap | Market | List Past Swaps | Shows a URL of a database of past swaps. 
 Token | Accounts | Create Account and Put in Group. Group can be either kyc, kycadmin, user, treasurer, raida or admin.
 Token | Accounts | Delete Account | Removes an account
 Token | Accounts | 🔴 Freeze Account | Removes an account
 Token | Accounts | 🔴 Unfreeze Account | Removes an account
 Token | Accounts | 🔴 Grant Permissions | Gives the user permssions. 
-Token | Audit | Shows all of the events that have happened in the period specified
+Token | Treasury | Audit | Shows all of the events that have happened in the period specified
 Token | Treasury |  [Create Tokens](#create-tokens) | Orders that tokens be created
 Token | Treasury |  [Delete Tokens](#delete-tokens) | Orders tokens to be destroyed. 
 Token | Treasury |  [Freeze Tokens](#freeze-tokens) | Stops coins specified from being transacted until unfrozen.  
