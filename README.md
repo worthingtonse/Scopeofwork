@@ -1,7 +1,8 @@
-# RaidaTech API Scope of work
+# RaidaTech API Scope of work: Functionalities 
 Determine exactly what functionalities will be included in the SDK. This should cover the core capabilities like data shredding, routing, and reassembly for secure token creation and distribution.
 
 ## Functionalities to be included:
+Except as marked red or yellow, all of these functions have already been implemented using REST API. Many of these have also been implemented using the CLI API. 
 🔴 Means not implemented yet. 
 🟡 Means not fully implemented yet or needs customization. 
 Catagory | Subcat | Function | Description
@@ -80,13 +81,7 @@ Ghost Chat | Chat | 🔴 Spam | Allows the user to send a message to the public 
 Ghost Chat | Chat | 🔴 Receive Spam | Allows the user to download files in the public inbox. 
 GPT Anonymous | Chat | 🟡 Request | User sends AI a prompt.
 
-
-
-
-
-
-
-
+<!--
 
 CloudCurrency | [CloudCurrency](#cloudcurrencies) | Same technology as CloudCoin version 3
 Digital Certificates | Allows for managed currencies such as stable tokens
@@ -106,7 +101,8 @@ Coin Registry Blockchain | Allows CloudCurrencies and Certificates to use open h
 
 
 # 1. There are three
-
+-->
+# How APIs may be structured. 
 ```mermaid
 flowchart TB
   %% Desktop SDKs
@@ -133,6 +129,8 @@ flowchart TB
   API_CLI & API_REST --> RAIDA_Protocol
   RAIDA_Protocol --> RAIDA
 ```
+
+<!--
 Breakdown:
 Desktop SDKs: Connect via their respective APIs.
 Mobile SDKs: Directly connect using the RAIDA protocol, without APIs.
@@ -226,5 +224,5 @@ Sam
 
 Registering DNS 
 
-
+-->
 
