@@ -3,7 +3,7 @@ Determine exactly what functionalities will be included in the SDK. This should 
 
 ## Functionalities to be included:
 Catagory | Subcat | Function | Description
----|---|---
+---|---|---|---
 CloudCoin | Status | Echo RAIDA | Sends each RAIDA a ping to check connection. Returns the response time or timeout. 
 CloudCoin | Status | Get Task Progress | Returns the progress and outcome of an API call that is asynchonistic. 
 CloudCoin | File | Create Location for Wallets | Allows the user to specify where they want wallets to be (like a USB drive)
@@ -36,13 +36,11 @@ Swap | Buy Coins | Buys the coins and downloads them to the wallet
 Swap | List Past Swaps | Shows a URL of a database of past swaps. 
 Token | Accounts | 
 Token | Audit | Shows all of the events that have happened in the period specified
-Token | Treasury | [Get Available SNs](#get-available-sns) | Lists the serial numbers it can use to create tokens. 
 Token | Treasury |  [Create Tokens](#create-tokens) | Orders that tokens be created
 Token | Treasury |  [Delete Tokens](#delete-tokens) | Orders tokens to be destroyed. 
 Token | Treasury |  [Freeze Tokens](#freeze-tokens) | Stops coins specified from being transacted until unfrozen.  
 Token | Treasury | [Unfreeze Tokens](#unfreeze-tokens) | Returns the control of the coins to the user.  
 Token | Treasury |  [Seize Tokens](#seize-tokens) | Orders tokens to be put into a locker for the treasurer. 
-Token | Treasury |  [Release Lock](#release-lock)|  Tells RAIDA to release lock on reserved SNs.
 Token | Treasury |  [Get All SNs](#get-all-sns)|  Returns all the serial numbers that the RAIDA has minted.
 Token | Treasury |  [Create_Depository](create-depository) | Creates a Depository for an exchange, merchant of bank
 Token | Treasury |  [Stop_Depository](stop) | Stop a depository from accepting or releasing coins
