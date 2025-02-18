@@ -81,6 +81,36 @@ Ghost Chat | Chat | 🔴 Spam | Allows the user to send a message to the public 
 Ghost Chat | Chat | 🔴 Receive Spam | Allows the user to download files in the public inbox. 
 GPT Anonymous | Chat | 🟡 Request | User sends AI a prompt.
 
+## 2. Design the Archetecture
+
+There are several decisions that need to be made:
+
+Dependent or Independent: Will be sell RAIDA that are seperate from the CloudCoin Raida or part of it. 
+
+Discreat or Attched Singls. Should there be singles that are all by themselves?
+
+### Metering usage: 
+An pay into RAIDA. So RAIDA must have a wallet. Money is sent to home. If it runs out of CC. Need to refress. Should be someway for it to send and email if it is getting low. When it sends money, it will say how much money is left. It will send a locker code. Maybe a locker code that only withdraws a certaing amount. Raida Tech Servers need a way of monetorying who sent money
+
+### How will we get CC to the RAIDA? From a client?
+Could be that our computers put money into the RAIDA. But maybe a privacy issue. 
+
+### Coins must have different unique id. 
+Script generates RAIDA. Registeres coin id. Compiles software including desktop, cloudbank, SMS. 
+
+### Need a DNS server to hold RAIDA Records. 
+
+============================
+DISCREET PACKAGE OF 25 RAIDA
+============================
+>> Need way of metering usage ( could have a public page that shows usage) 
+>> Need a way to pay for usage
+>> Coins must have a different and unique ID
+>> Need directory to find RAIDA
+
+
+
+
 <!--
 
 CloudCurrency | [CloudCurrency](#cloudcurrencies) | Same technology as CloudCoin version 3
