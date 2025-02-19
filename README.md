@@ -96,7 +96,15 @@ Command Code | Name | Description
 ---|---|---
 200 | Metering Status | Shows Serial Numbers. People only get a certain amount of serial numbers for free. Shows max available
 
-### Non-RAIDA Service:
+### RAIDA API 
+The
+
+The versions would be: 
+1. Free (Only a few serial numbers)
+2. Small Org (More serial numbers)
+3. Enterprise (Much more serial numbers)
+4. National (Customized and not available without a contract)
+
 Raida Installation Service: 
 1. Version that reduced the amount of coins allowable. 
 2. Give the Coin and ID
