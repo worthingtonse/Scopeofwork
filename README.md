@@ -89,14 +89,34 @@ Dependent or Independent: Will be sell RAIDA that are seperate from the CloudCoi
 
 Discreat or Attched Singls. Should there be singles that are all by themselves?
 
+### New Services to Support API 
+
+Script generates RAIDA. Registeres coin id. Compiles software including desktop, cloudbank, SMS. The system cannot shut down. There is a Treasure's workstation that will show the amount. 
+Command Code | Name | Description
+---|---|---
+200 | Metering Status | Shows Serial Numbers. People only get a certain amount of serial numbers for free. Shows max available
+
+### Non-RAIDA Service:
+Raida Installation Service: 
+1. Version that reduced the amount of coins allowable. 
+2. Give the Coin and ID
+3. Give each RAIDA, raida coins, Admin Coins, backdoor keys, treasury keys
+4. Generate Treasure's Workstation. Performance workstation. Auditor's workstation
+5. Generate generic CloudCoin client
+6. Generate generic CloudBank and SMS bank 
+
+
 ### Metering usage: 
-An pay into RAIDA. So RAIDA must have a wallet. Money is sent to home. If it runs out of CC. Need to refress. Should be someway for it to send and email if it is getting low. When it sends money, it will say how much money is left. It will send a locker code. Maybe a locker code that only withdraws a certaing amount. Raida Tech Servers need a way of monetorying who sent money
+There is a maxiumum number of serial numbers available with the Free version. They can upgrade to Pro to get more serial numbers.
+An pay into RAIDA. So RAIDA must have a wallet. Money is sent to home. If it runs out of CC. Need to refress. Should be someway for it to send and email if it is getting low. When it sends money, it will say how much money is left. It will send a locker code. Maybe a locker code that only withdraws a certaing amount. Raida Tech Servers need a way of monetorying who sent money.
+
+
 
 ### How will we get CC to the RAIDA? From a client?
 Could be that our computers put money into the RAIDA. But maybe a privacy issue. 
 
 ### Coins must have different unique id. 
-Script generates RAIDA. Registeres coin id. Compiles software including desktop, cloudbank, SMS. 
+
 
 ### Need a DNS server to hold RAIDA Records. 
 
