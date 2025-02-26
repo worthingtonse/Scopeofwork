@@ -1,6 +1,6 @@
 # Liberty Through “Perfect” Tokenization
 ## Your Path to Property
-### Free from The Perfect Money Foundation
+### Free from The Perfect Money Foundation, Supported by RaidaTech Inc.
 
 RAIDAX is a revolutionary network architecture that makes the blockchain obsolete by creating a distributed array of 
 servers that solve the biggest problems of digital currencies and tokenization. 
