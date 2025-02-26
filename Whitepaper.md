@@ -101,4 +101,17 @@ These KYC documents can be accessed by special KYC accounts created by the Treas
 RAIDAX allows users to store data on the RAIDA. They are able to create folders and upload and download files
 in a supersecure, quantum safe manner. 
 
-Auditing ( Optional surveillance of authentications, performance and number of tokens)
+## Auditing ( Optional surveillance of authentications, performance and number of tokens)
+The Treasurer's workstation includes software that allows administrators to us AI to learn information that would be helpful
+for marketing decisions, performance issues and crime detection. 
+
+# User Software
+RAIDAX comes with opensource desktop, server and web software to make it easy to customize your user's experience. 
+
+Software includes: 
+* Desktop software for Windows, Linux and Mac
+* Web based software that can be used by any device including mobile devices.
+* SMS software to manage Tokens using cell phones without users needing to install softwared.
+* Perfect Core. Server and client CLI/REST API service that allows any program to quickly connect to the RAIDAX.
+
+Software is always evolving and customizations can be done within your organization or contracted via RaidaTech. 
