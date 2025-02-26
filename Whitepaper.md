@@ -1,3 +1,22 @@
+# Liberty Through “Perfect” Tokenization
+## Your Path to Property
+### Free from The Perfect Money Foundation
+
+RAIDAX is a revolutionary network architecture that makes the blockchain obsolete by creating a distributed array of servers that solve the biggest problems of digital currencies and tokenization. 
+
+Tokens created using RAIDAX: 
+* Optionally 100% private and require no user accounts, passwords or records of transactions.  
+* The most energy efficient tokens requiring no fees, expensive servers or notable electricity. 
+* Easily exchangeable with no on-ramps or off-ramps acting as choke points and surveillance points. 
+* Optionally configured to require KYC, Accounts, Freeze and Seize and accountability.
+* Handle more transactions in less time than any other token technology. 
+* Quantum safe requiring no public or private keys. 
+* No systemic risk of failure of loss and theft of tokens. Tokens can even be recovered if lost.
+
+  
+  software that allows people to create their own tokens that possess all the characteristics of CloudCoin but also include other features for making stable tokens. The ‘X’ in RAIDAX means that the RAIDA can run any type of digital asset such as coins, stable tokens, referenced tokens, stocks, bonds and NFTs. This supports any monetary system, payment system or exchange system. 
+
+
 ```mermaid
 graph TD
     A[Redundant Array of Indepdent Data Agents <br>Perfect Token SDK] --> B[Token Authentication]
