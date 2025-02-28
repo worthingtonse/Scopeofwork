@@ -25,6 +25,7 @@ One of the advantages of the subscription model is its flexibility. As companies
 The subscription model also allows various pricing structures, such as flat rate pricing, tiered pricing, or value-based pricing, to cater to different customer segments. This flexibility in SaaS pricing strategies enables companies to attract a broader customer base and adjust their pricing to stay competitive.
 
 
+
 ## Usage-Based Pricing Model
 
 Usage-based pricing, also known as pay-as-you-go, is a flexible model where charges depend on the actual usage of the software, such as the number of transactions or API calls. This model aligns costs directly with consumption, much like utility bills, enhancing customer satisfaction. Companies like AWS exemplify this model, charging based on computing, storage, and outbound data transfer.
@@ -99,3 +100,10 @@ Example Denomination | Price Per Denomination | Cost Per Token | Notes
 100| $1 Each | $.01  |
 10,000 | $100 | $.01  |
 100,000 | $1,000 | $.01  | 
+
+
+Create a graph mermade that has a root node of "Pricing Models"
+The pricing model node has the following child nodes: "Subscription Based", "Usage Based" and "Complementary Service Based"
+This connects to Subscription Based which has the following child nodes: flat rate pricing, tiered pricing, or value-based pricing
+Usage Based has the following nodes: "Authentications", "User Accounts"
+
