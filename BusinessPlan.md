@@ -4,8 +4,8 @@ A well-defined pricing strategy is the cornerstone of software as a service (Saa
 
 The SaaS landscape offers a variety of saas pricing models, each tailored to different customer needs and business goals. These models include:
 
-* Subscription-based
 * Usage-based
+* Subscription-based
 * Tiered pricing
 
 ## Freemium Pricing Model
@@ -14,35 +14,6 @@ No matter what our pricing model is, we will include a freemium model. The freem
 Freemium pricing aims to hook users with free access, encouraging them to upgrade to a paid version after experiencing the product. Converting freemium customers to paid versions is often easier because they have experienced the product’s value. However, balancing free and paid users can be challenging, as many free users may never convert to paying customers.
 
 Offering enough functionality to engage users without giving away too much is critical for freemium model success. Providing an exceptional free version may result in users not feeling the need to upgrade to a paid version. Companies need to carefully design their freemium offerings to ensure a seamless transition from free to paid plans.
-
-
-## Subscription-Based Pricing Model
-The subscription-based pricing model is a staple in the SaaS industry, where customers pay a regular fee, either monthly or annually, for access to the software. This model enhances customer retention and creates predictable revenue streams, making it a favorite among SaaS companies. Companies like Spotify and Netflix have demonstrated the wide applicability and effectiveness of this model, boasting high profitability and customer loyalty.
-
-One of the advantages of the subscription model is its flexibility. As companies evolve, they can easily adapt their offerings to meet new market demands. However, it’s not without challenges. Early-stage SaaS businesses may face uncertainty in revenue and increased cancellation rates. Despite these challenges, many companies report median gross margins of around 80% on subscription revenue, highlighting its profitability.
-
-The subscription model also allows various pricing structures, such as flat rate pricing, tiered pricing, or value-based pricing, to cater to different customer segments. This flexibility in SaaS pricing strategies enables companies to attract a broader customer base and adjust their pricing to stay competitive.
-
-
-### Subscriptions based on the number of token serial numbers 
-In this example, organizations would pay RaidaTech pay based on the maximum number of tokens that they are allowed to create. 
-
-Version | Monthly Price |  Maximum Tokens | Notes
----|---|---|---
-Free | $0 | 1000 | Customers can download the free version from our websites and customize it to their specifications
-Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
-Enterprise | $455 | 100,000 | May include additional features yet to be developed
-National | $600,000 | Unlimmited | Must be purchased from sales department
-
-### Subscriptions based on the number of user accounts 
-In this example, organizations pay based on the number of user accounts that they want to have access to authenticating tokens.
-
-Version | Monthly Price |  Maximum Users | Notes
----|---|---|---
-Free | $0 | 100 | Users can download the free version  and have up to 100 users before needing to upgrade. 
-Small Org | $195 | 1,000 | Free version can be upgraded to Small Org
-Enterprise | $455 | 10,000 | May include additional features yet to be developed
-National | $600,000 | Unlimmited | Must be purchased from sales department
 
 
 ## Usage-Based Pricing Model
@@ -80,6 +51,36 @@ Example Denomination | Price Per Denomination | Cost Per Token | Notes
 100| $1 Each | $.01  | When a customer purchases a 100 token note, they pay $1
 10,000 | $100 | $.01  | When a customer purchases a ten thousand token note, they pay $100
 100,000 | $1,000 | $.01  | When a customer purchases a one hundred thousand token note, they pay $1,000
+
+
+
+## Subscription-Based Pricing Model
+The subscription-based pricing model is a staple in the SaaS industry, where customers pay a regular fee, either monthly or annually, for access to the software. This model enhances customer retention and creates predictable revenue streams, making it a favorite among SaaS companies. Companies like Spotify and Netflix have demonstrated the wide applicability and effectiveness of this model, boasting high profitability and customer loyalty.
+
+One of the advantages of the subscription model is its flexibility. As companies evolve, they can easily adapt their offerings to meet new market demands. However, it’s not without challenges. Early-stage SaaS businesses may face uncertainty in revenue and increased cancellation rates. Despite these challenges, many companies report median gross margins of around 80% on subscription revenue, highlighting its profitability.
+
+The subscription model also allows various pricing structures, such as flat rate pricing, tiered pricing, or value-based pricing, to cater to different customer segments. This flexibility in SaaS pricing strategies enables companies to attract a broader customer base and adjust their pricing to stay competitive.
+
+
+### Subscriptions based on the number of token serial numbers 
+In this example, organizations would pay RaidaTech pay based on the maximum number of tokens that they are allowed to create. 
+
+Version | Monthly Price |  Maximum Tokens | Notes
+---|---|---|---
+Free | $0 | 1000 | Customers can download the free version from our websites and customize it to their specifications
+Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
+Enterprise | $455 | 100,000 | May include additional features yet to be developed
+National | $600,000 | Unlimmited | Must be purchased from sales department
+
+### Subscriptions based on the number of user accounts 
+In this example, organizations pay based on the number of user accounts that they want to have access to authenticating tokens.
+
+Version | Monthly Price |  Maximum Users | Notes
+---|---|---|---
+Free | $0 | 100 | Users can download the free version  and have up to 100 users before needing to upgrade. 
+Small Org | $195 | 1,000 | Free version can be upgraded to Small Org
+Enterprise | $455 | 10,000 | May include additional features yet to be developed
+National | $600,000 | Unlimmited | Must be purchased from sales department
 
 
 ## Tiered Pricing Model
