@@ -25,6 +25,25 @@ One of the advantages of the subscription model is its flexibility. As companies
 The subscription model also allows various pricing structures, such as flat rate pricing, tiered pricing, or value-based pricing, to cater to different customer segments. This flexibility in SaaS pricing strategies enables companies to attract a broader customer base and adjust their pricing to stay competitive.
 
 
+### Subscriptions based on the number of token serial numbers 
+In this example, organizations pay based on the maximum number of tokens that they are allowed to have. 
+
+Version | Monthly Price |  Maximum Tokens | Notes
+---|---|---|---
+Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
+Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
+Enterprise | $455 | 100,000 | May include additional features yet to be developed
+National | $600,000 | Unlimmited | Must be purchased from sales department
+
+### Subscriptions based on the number of token user accounts 
+In this example, organizations pay based on the number of user accounts they are allowed to have
+Version | Monthly Price |  Maximum Tokens | Notes
+---|---|---|---
+Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
+Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
+Enterprise | $455 | 100,000 | May include additional features yet to be developed
+National | $600,000 | Unlimmited | Must be purchased from sales department
+
 
 ## Usage-Based Pricing Model
 
@@ -34,63 +53,19 @@ The usage-based model allows companies to benefit from rapid revenue spikes when
 
 Implementing usage-based pricing involves complex revenue prediction and ensuring customers understand the billing structure. Despite these challenges, it remains a popular choice for software services that require consistent user engagement to deliver value. Common usage-based pricing models include pay-as-you-go, per-unit pricing, and usage-tier pricing.
 
-## Tiered Pricing Model
-The tiered pricing model offers multiple packages with different features and prices to cater to various user groups. This approach allows companies to maximize customer lifetime value by catering to different customer needs and budgets. Most prevalent in the SaaS industry, tiered pricing caters to a range of customer personas with diverse needs and budgets.
+### Usage based on Tokens that are priced based on packages
+The customer would purchase serial numbers. The more the user buys, the less they pay per token. 
 
-Typically, companies create three to five distinct pricing tiers, each offering specific benefits like features and support levels. A three-tier pricing structure effectively targets different customer segments simultaneously, making it easier for customers to compare options and select the package that best meets their needs. This model can improve conversion rates by providing a broader range of options and attracting diverse customers with varying budget levels.
-
-Aligning the tiers with customer usage patterns and preferences is crucial for the success of this model. Feature-based pricing tiers enable customers to choose packages based on specific features they require, avoiding unnecessary costs. User count tiers are particularly beneficial for software services designed to support multiple users.
-
-
-
-
-
-
-This documents explains the possible ways that RaidaTech Inc can commercialize its patented RAIDA technology. 
-
-## Versions
-RaidaTech could provide different versions of the software. These versions include: 
-1. Free 
-2. Small Organization
-3. Enterprise
-4. National
-
-Each version would allow a different maxiumum or tokens that could be created. 
-
-### Version Option 1: One time flat fee with no subscriptions
-We may make more money on support and customizations.
-
-Version | One-time Price |  Maximum Tokens | Notes
+Resource used | Fee Per use | Time Period | Notes
 ---|---|---|---
-Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
-Small Org | $695 | 10,000 | Free version can be upgraded to Small Org
-Enterprise | $4550 | 100,000 | May include additional features yet to be developed
-National | $100,000 | Unlimmited | Must be purchased from sales department
-
-### Version Option 2: Monthly flat fee 
-
-Version | Monthly Price |  Maximum Tokens | Notes
----|---|---|---
-Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
-Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
-Enterprise | $455 | 100,000 | May include additional features yet to be developed
-National | $600,000 | Unlimmited | Must be purchased from sales department
-
-## Token Purchases
-Users get the software and 1,000 tokens for free but must pay for additional tokens. 
-
-### Purchase of Token Packs
-The more the user buys, the less they pay per token. 
-
-Package Amount | Price Per Token | Cost for Packagte | Notes
----|---|---|---
-1,000 | $0.01 Each | $100 | Most expensive option
-10,000 | $0.006 Each | $60 |
-100,000 | $0.003 | $300 |
-1,000,000 | $0.001 | $1,000 | Least expensive option
+Authentications | $0.01 | Each Time |  Everytime a batch of coins are authenticated, there is a fee associaated with it. 
+Coin Swapping | 3% | Each Time | When people swap Bitcoin for their token, RaidaTech gets a percentage of the exchange
+Locker Storage | $.01 | Each Time | People must pay to rent a locker on the RAIDA. 
+CloudBank & SMS Bank | $10 | Monthly | This allows people to store their coins in the CloudBank which allows them to synch the coins on all devices
+Crypto Key sub custodial services | .001% or wallet balance | Monthly | We can store cryptographical keys for exchanges and banks to protect them from being hacked.
 
 
-### Purchase of single tokens at a standard price
+### Usage based on Tokens that are all priced the same
 It may make sense for us to charge a different flat fee for each different denomination. 
 This amount could be 1% of the face value of the denomination.
 
@@ -100,6 +75,43 @@ Example Denomination | Price Per Denomination | Cost Per Token | Notes
 100| $1 Each | $.01  |
 10,000 | $100 | $.01  |
 100,000 | $1,000 | $.01  | 
+
+
+## Tiered Pricing Model
+The tiered pricing model offers multiple packages with different features and prices to cater to various user groups. This approach allows companies to maximize customer lifetime value by catering to different customer needs and budgets. Most prevalent in the SaaS industry, tiered pricing caters to a range of customer personas with diverse needs and budgets.
+
+Typically, companies create three to five distinct pricing tiers, each offering specific benefits like features and support levels. A three-tier pricing structure effectively targets different customer segments simultaneously, making it easier for customers to compare options and select the package that best meets their needs. This model can improve conversion rates by providing a broader range of options and attracting diverse customers with varying budget levels.
+
+Aligning the tiers with customer usage patterns and preferences is crucial for the success of this model. Feature-based pricing tiers enable customers to choose packages based on specific features they require, avoiding unnecessary costs. User count tiers are particularly beneficial for software services designed to support multiple users.
+
+Here is a possible tiered pricing that RaidaTech Inc can commercialize its patented RAIDA technology. 
+
+## Versions
+RaidaTech could provide different versions of the software. These versions include: 
+1. Free 
+2. Small Organization
+3. Enterprise
+4. National
+
+### Tiers based on the number of tokens provided
+Different version have a different maxiumum number of token serial numbres that are allowed.
+
+Version | One-time Price |  Maximum Tokens | Notes
+---|---|---|---
+Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
+Small Org | $695 | 10,000 | Free version can be upgraded to Small Org
+Enterprise | $4550 | 100,000 | May include additional features yet to be developed
+National | $100,000 | Unlimmited | Must be purchased from sales department
+
+### Tiers based on the number of user accounts provided
+Our software supports user accounts which allow people to authenticate coins and prevent non-users from doing so. Users get the software and 1,000 tokens for free but must pay for additional tokens. 
+
+Version | One-time Price |  Maximum Users | Notes
+---|---|---|---
+Free | $0 | 100 | Users can download the free version from the websites and customize it to the user's specifications
+Small Org | $695 | 1,000 | Free version can be upgraded to Small Org
+Enterprise | $4550 | 10,000 | May include additional features yet to be developed
+National | $100,000 | Unlimmited | Must be purchased from sales department
 
 
 Create a graph mermade that has a root node of "Pricing Models"
