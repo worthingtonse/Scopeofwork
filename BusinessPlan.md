@@ -66,6 +66,8 @@ CloudBank & SMS Bank | $10 | Monthly | This allows people to store their coins i
 Crypto Key sub custodial services | .001% or wallet balance | Monthly | We can store cryptographical keys for exchanges and banks to protect them from being hacked.
 KYC (High Security)| $10 per user | Here we would allows customers to send KYC documents to the raida and we would then contract out with a company to provide KYC services
 System Monitoring | $500 | Monthy | We can provide anti-money laundering, marketing and performane monitoring
+Customer Support | $600 | Monthly | We can provide support so that token owners don't need to
+Token Sales | 3% | Each Time | We can use our software to allow token owners to sell coins online
 
 
 ### Usage based on Tokens that are all priced the same
