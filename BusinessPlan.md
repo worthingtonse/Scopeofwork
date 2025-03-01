@@ -1,16 +1,15 @@
 # Software Pricing Models for RAIDAX
 
-A well-defined pricing strategy is the cornerstone of SaaS success. It boosts conversions, improves monthly recurring revenue (MRR), and contributes to profitability through effective software pricing strategies. A solid software pricing strategy is essential for maximizing these benefits.
+A well-defined pricing strategy is the cornerstone of software as a service (SaaS) success. It boosts conversions, improves monthly recurring revenue (MRR), and contributes to profitability through effective software pricing strategies. A solid software pricing strategy is essential for maximizing these benefits.
 
 The SaaS landscape offers a variety of saas pricing models, each tailored to different customer needs and business goals. These models include:
 
 * Subscription-based
 * Usage-based
 * Tiered pricing
-* Complementary Goods Pricing
 
 ## Freemium Pricing Model
-We have decided that no matter what our pricing model is, we will include a freemium model. The freemium pricing model offers free access to basic features, encouraging users to upgrade to premium versions for more advanced functionalities. This model reduces entry barriers, enabling companies to attract a broader audience with limited offerings. Companies like Dropbox have successfully used this model, achieving substantial user growth with over 700 million registered users.
+No matter what our pricing model is, we will include a freemium model. The freemium pricing model offers free access to basic features, encouraging users to upgrade to premium versions for more advanced functionalities. This model reduces entry barriers, enabling RaidaTech to attract a broader audience with limited offerings. Companies like Dropbox have successfully used this model, achieving substantial user growth with over 700 million registered users.
 
 Freemium pricing aims to hook users with free access, encouraging them to upgrade to a paid version after experiencing the product. Converting freemium customers to paid versions is often easier because they have experienced the product’s value. However, balancing free and paid users can be challenging, as many free users may never convert to paying customers.
 
@@ -26,22 +25,23 @@ The subscription model also allows various pricing structures, such as flat rate
 
 
 ### Subscriptions based on the number of token serial numbers 
-In this example, organizations pay based on the maximum number of tokens that they are allowed to have. 
+In this example, organizations would pay RaidaTech pay based on the maximum number of tokens that they are allowed to create. 
 
 Version | Monthly Price |  Maximum Tokens | Notes
 ---|---|---|---
-Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
+Free | $0 | 1000 | Customers can download the free version from our websites and customize it to their specifications
 Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
 Enterprise | $455 | 100,000 | May include additional features yet to be developed
 National | $600,000 | Unlimmited | Must be purchased from sales department
 
-### Subscriptions based on the number of token user accounts 
-In this example, organizations pay based on the number of user accounts they are allowed to have
-Version | Monthly Price |  Maximum Tokens | Notes
+### Subscriptions based on the number of user accounts 
+In this example, organizations pay based on the number of user accounts that they want to have access to authenticating tokens.
+
+Version | Monthly Price |  Maximum Users | Notes
 ---|---|---|---
-Free | $0 | 1000 | Users can download the free version from the websites and customize it to the user's specifications
-Small Org | $195 | 10,000 | Free version can be upgraded to Small Org
-Enterprise | $455 | 100,000 | May include additional features yet to be developed
+Free | $0 | 100 | Users can download the free version  and have up to 100 users before needing to upgrade. 
+Small Org | $195 | 1,000 | Free version can be upgraded to Small Org
+Enterprise | $455 | 10,000 | May include additional features yet to be developed
 National | $600,000 | Unlimmited | Must be purchased from sales department
 
 
@@ -53,6 +53,7 @@ The usage-based model allows companies to benefit from rapid revenue spikes when
 
 Implementing usage-based pricing involves complex revenue prediction and ensuring customers understand the billing structure. Despite these challenges, it remains a popular choice for software services that require consistent user engagement to deliver value. Common usage-based pricing models include pay-as-you-go, per-unit pricing, and usage-tier pricing.
 
+
 ### Usage based on Tokens that are priced based on packages
 The customer would purchase serial numbers. The more the user buys, the less they pay per token. 
 
@@ -60,9 +61,11 @@ Resource used | Fee Per use | Time Period | Notes
 ---|---|---|---
 Authentications | $0.01 | Each Time |  Everytime a batch of coins are authenticated, there is a fee associaated with it. 
 Coin Swapping | 3% | Each Time | When people swap Bitcoin for their token, RaidaTech gets a percentage of the exchange
-Locker Storage | $.01 | Each Time | People must pay to rent a locker on the RAIDA. 
-CloudBank & SMS Bank | $10 | Monthly | This allows people to store their coins in the CloudBank which allows them to synch the coins on all devices
+Locker Storage | $.01 | Each Time | People must pay to rent a locker (safe deposit box) on the RAIDA. 
+CloudBank & SMS Bank | $10 | Monthly | This allows people to store their coins in the CloudBank which allows them to synch the coins on all devices and quickly send them to other users based on the user's phone number or email. 
 Crypto Key sub custodial services | .001% or wallet balance | Monthly | We can store cryptographical keys for exchanges and banks to protect them from being hacked.
+KYC (High Security)| $10 per user | Here we would allows customers to send KYC documents to the raida and we would then contract out with a company to provide KYC services
+System Monitoring | $500 | Monthy | We can provide anti-money laundering, marketing and performane monitoring
 
 
 ### Usage based on Tokens that are all priced the same
@@ -72,9 +75,9 @@ This amount could be 1% of the face value of the denomination.
 Example Denomination | Price Per Denomination | Cost Per Token | Notes
 ---|---|---|---
 .01 | $0.001 Each | $.01 | Cost per token does not change per denomination.
-100| $1 Each | $.01  |
-10,000 | $100 | $.01  |
-100,000 | $1,000 | $.01  | 
+100| $1 Each | $.01  | When a customer purchases a 100 token note, they pay $1
+10,000 | $100 | $.01  | When a customer purchases a ten thousand token note, they pay $100
+100,000 | $1,000 | $.01  | When a customer purchases a one hundred thousand token note, they pay $1,000
 
 
 ## Tiered Pricing Model
@@ -85,6 +88,11 @@ Typically, companies create three to five distinct pricing tiers, each offering 
 Aligning the tiers with customer usage patterns and preferences is crucial for the success of this model. Feature-based pricing tiers enable customers to choose packages based on specific features they require, avoiding unnecessary costs. User count tiers are particularly beneficial for software services designed to support multiple users.
 
 Here is a possible tiered pricing that RaidaTech Inc can commercialize its patented RAIDA technology. 
+
+Tier | Price | What it does
+---|---|---
+Full Privacy | $10,000 | Does not require accounts and does not track users
+Managed | $20,000 | Handles, 
 
 ## Versions
 RaidaTech could provide different versions of the software. These versions include: 
